@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Roboto';
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.sub-title {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #030305;
+    margin-bottom: 40px;
+    line-height: 70px;
+}
+.car-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.car-item {
+    width: 384px;
+    text-align: center;
+    margin-top: 40px;
+}
+.car-item-img img{
+    vertical-align: bottom;
+}
+.car-item-title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 150%;
+    color: #030305;
+    padding: 15px 0 17px 0;
+}
+.car-item-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car-item-point {
+    width: 110px;
+    height: 92px;
+    margin: 0 7.5px;
+}
+.car-item-point img {
+    margin-bottom: 11px;
+}
+.car-item-action{
+    margin-top: 13px;
+}
+.car-item-action .btn{
+    width: 100%;
+    padding: 15px;
+    height: 54px;
+}
+.btn {
+    padding: 20px;
+    background-color: #030305;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    align-items: center;
+    box-sizing: border-box;
+}
+.btn:hover {
+    background-color: #2d2d4b;
+}
+.car-item-point > div:nth-child(2){
+    font-weight: 700;
+}
