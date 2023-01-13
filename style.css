@@ -61,8 +61,12 @@ ol[class] {
     text-align: center;
     margin-top: 40px;
 }
-.car-item-img img{
+.car-item-img:hover img {
+    transform: scale(1.1);
+}
+.car-item-img img {
     vertical-align: bottom;
+    transition: all .3s;
 }
 .car-item-title {
     font-size: 24px;
