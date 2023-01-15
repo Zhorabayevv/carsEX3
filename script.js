@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let layer = document.querySelector('.price-image');
+    let layer = document.querySelector('.price-img');
 document.addEventListener('mousemove', (event) => {
         layer.style.transform = 'translate3d(' + ((event.clientX * 0.3) / 8) + 'px,' + ((event.clientY * 0.3) / 8) + 'px,0px)';
 });

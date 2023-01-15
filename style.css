@@ -74,7 +74,7 @@ ol[class] {
     border-bottom: 2px solid #2d2d4b;
 }
 .main{
-    background-image: url('../img/background.png');
+    background-image: url('img/background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
