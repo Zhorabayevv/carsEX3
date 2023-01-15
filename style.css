@@ -198,11 +198,13 @@ ol[class] {
     height: 54px;
     border: 1px solid #5D5D5F;
     padding: 22px 18px;
-    margin-bottom: 15px;
     font-size: 16px;
     color: #000000;
     box-sizing: border-box;
     outline: none;
+}
+.mar-bottom{
+    margin-bottom: 15px;
 }
 .price-input::placeholder {
     color: #5D5D5F;
@@ -228,3 +230,12 @@ footer .container{
     font-size: 15px;
     color: #5D5D5F;
 }
+.error{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.correct{
+    display: none;
+}
+
