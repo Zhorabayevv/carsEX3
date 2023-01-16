@@ -14,6 +14,8 @@ function validateForm(){
         let error = document.getElementById("errorCar");
         error.classList.remove("correct");
         error.classList.add("error");
+    }else{
+        alert("Ваша заявка принята!");
     }
 }
 
